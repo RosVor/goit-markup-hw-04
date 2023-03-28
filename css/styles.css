@@ -291,7 +291,6 @@ body {
 }
 
 .team-soc-link:is(:hover, :focus) {
-  color: var(--main-button-color);
   background: var(--secondary-button-color);
   fill: var(--icon-background-color);
 }
@@ -433,7 +432,6 @@ height:16px;
 }
 
 .footer-soc-link :is(:hover, :focus) {
-  color: var(--main-button-color);
   background: var(--secondary-button-color);
   fill: var(--icon-background-color);
 }
