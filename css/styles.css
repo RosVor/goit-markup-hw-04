@@ -518,7 +518,7 @@ height:16px;
 }
  
 .prtf-button-list:is(:hover, :focus) {
-  background-image:linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7));
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .navigation-row-list {
