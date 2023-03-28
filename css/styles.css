@@ -16,11 +16,7 @@
   --borders-icon-color:#8E8F99;
 }
 
-svg {
-  justify-content: center;
-  align-items: center;
-  display: flex;
-}
+
 
 .container {
   width: 1158px;
@@ -206,6 +202,7 @@ body {
   height: 112px;
   justify-content: center;
   border-radius: 4px;
+  align-items: center;
 }
 
 .solutions-row-icon {
