@@ -357,7 +357,7 @@ height:16px;
 }
 
 .customers-link:is(:hover, :focus) {
-  color: var(--link-focus-color);
+  fill: var(--link-focus-color);
 }
 
 .customers-link {
