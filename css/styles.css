@@ -206,11 +206,6 @@ body {
   display: flex;
 }
 
-.solutions-row-icon-item:is(:hover, :focus) {
-  color: var(--main-button-color);
-  background: var(--secondary-button-color);
-}
-
 .solutions-row-icon {
   width: 64px;
   height: 64px;
@@ -295,6 +290,13 @@ gap:24px;
   width: 40px;
   height: 40px;
 }
+
+.team-soc-item:is(:hover, :focus) {
+  color: var(--main-button-color);
+  background: var(--secondary-button-color);
+  fill: var(--icon-background-color);
+}
+
 .team-soc-link {
 width: 100%;
 height: 100%;
@@ -310,6 +312,7 @@ background-color: var(--icon-background-color);
 width:16px;
 height:16px;
 }
+
 
 
 .team-name {
@@ -356,6 +359,11 @@ height:16px;
   width: 168px;
   height: 88px;
 }
+
+.customers-item:is(:hover, :focus) {
+  color: var(--link-focus-color);
+}
+
 .customers-link {
   justify-content: center;
   align-items: center;
@@ -428,6 +436,7 @@ height:16px;
 .footer-soc-item :is(:hover, :focus) {
   color: var(--main-button-color);
   background: var(--secondary-button-color);
+  fill: var(--icon-background-color);
 }
 
 .footer-soc-item {
