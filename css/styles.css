@@ -16,6 +16,12 @@
   --borders-icon-color:#8E8F99;
 }
 
+svg {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
 .container {
   width: 1158px;
   margin: 0 auto;
