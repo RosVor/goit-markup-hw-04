@@ -292,7 +292,7 @@ body {
 
 .team-soc-link:is(:hover, :focus) {
   background: var(--secondary-button-color);
-  fill: var(--icon-background-color);
+  color: var(--icon-background-color);
 }
 
 .team-soc-link {
@@ -310,8 +310,6 @@ background-color: var(--icon-background-color);
 width:16px;
 height:16px;
 }
-
-
 
 .team-name {
   text-align: center;
@@ -370,11 +368,6 @@ height:16px;
   display: flex;
   border: 1px solid var(--borders-icon-color);
   border-radius: 4px;
-}
-
-.team-soc-icon {
-  width: 104px;
-  height: 56px;
 }
 
 
@@ -515,7 +508,7 @@ height:16px;
   max-width: calc((100% - 48px)/3);
 }
  
-.prtf-button-link:is(:hover, :focus) {
+.prtf-row-item:is(:hover, :focus) {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
