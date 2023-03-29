@@ -359,10 +359,6 @@ height:16px;
   height: 88px;
 }
 
-.customers-link:is(:hover, :focus) {
-  fill: var(--link-focus-color);
-}
-
 .customers-link {
   justify-content: center;
   align-items: center;
@@ -371,10 +367,12 @@ height:16px;
   display: flex;
   border: 1px solid var(--borders-icon-color);
   border-radius: 4px;
-  color: var(--secondary-icon-color);
+  fill: var(--secondary-icon-color);
 }
 
-
+.customers-link:is(:hover, :focus) {
+  fill: var(--link-focus-color);
+}
 /* ---------------------------------FOOTER----------------------- */
 
 .footer {
