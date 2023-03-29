@@ -294,7 +294,7 @@ body {
 
 .team-soc-link:is(:hover, :focus) {
   background-color: var(--secondary-button-color);
- fill: var(--icon-background-color);
+  fill: var(--icon-background-color);
 }
 
 .team-soc-link {
@@ -305,7 +305,7 @@ justify-content: center;
 align-items: center;
 padding: 12px;
 border-radius: 50%;
-color: var(--secondary-button-color);
+fill: var(--secondary-button-color);
 background-color: var(--icon-background-color); 
 }
 
