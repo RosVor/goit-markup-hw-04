@@ -292,7 +292,7 @@ body {
 
 .team-soc-link:is(:hover, :focus) {
   background: var(--secondary-button-color);
-  color: var(--icon-background-color);
+  stroke: var(--icon-background-color);
 }
 
 .team-soc-link {
@@ -357,7 +357,7 @@ height:16px;
 }
 
 .customers-link:is(:hover, :focus) {
-  fill: var(--link-focus-color);
+  stroke: var(--link-focus-color);
 }
 
 .customers-link {
@@ -424,9 +424,9 @@ height:16px;
   justify-content: center;
 }
 
-.footer-soc-link :is(:hover, :focus) {
+.footer-soc-link:is(:hover, :focus) {
   background: var(--secondary-button-color);
-  fill: var(--icon-background-color);
+  stroke: var(--icon-background-color);
 }
 
 .footer-soc-item {
