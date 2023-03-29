@@ -177,6 +177,7 @@ body {
   padding: 16px 32px;
 }
 
+
 .solutions-button:is(:hover, :focus) {
   color: var(--main-button-color);
   background: var(--secondary-button-color);
