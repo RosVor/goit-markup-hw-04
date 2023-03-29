@@ -350,6 +350,7 @@ background-color: var(--icon-background-color);
   text-transform: capitalize;
   margin-bottom: 72px;
 }
+
 .customers-list {
   gap: 24px;
 }
