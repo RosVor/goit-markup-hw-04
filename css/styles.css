@@ -374,6 +374,7 @@ background-color: var(--icon-background-color);
 
 .customers-link:is(:hover, :focus) {
   fill: var(--link-focus-color);
+  border-color: var(--link-focus-color);
 }
 /* ---------------------------------FOOTER----------------------- */
 
