@@ -510,7 +510,6 @@ background-color: var(--icon-background-color);
    justify-content: center; 
 }    */
 
-
 .prtf-row-item {
   max-width: calc((100% - 48px)/3);
 }
